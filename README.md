@@ -10,21 +10,8 @@ Hypothesis: the vocabulary and language used by critics can inform a wine recomm
 
 This dataset was obtained from https://www.kaggle.com/zynicide/wine-reviews, in which wine reviews were scraped from Wine Enthusiast's archives.
 
-## WIP
+## Running
 ``` python
-code = testing
+python oeno.py
 ```
-
-## Install
-``` sh
-make install
-```
-or
-``` python
-python setup.py install
-```
-
-## uninstall
-``` sh
-make remove
-```
+It should open in 127.0.0.1:5000. Check the console for more information.
