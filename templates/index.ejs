@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oeno</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="banner">
+        <h1>oeno</h1>
+        <p id="intro">
+            what are the critics saying about wine?
+        </p>
+    </div>
+
+    <form name="form1" method="POST" action="/search-wine">
+    <div id="container">
+        <td>What wine is similar to...</td>
+        <td><input type="text" id="winesearch" name="wine" ></td>
+        <td colspan="2"><input type="submit" value="Submit" ></td>
+    </div>
+    </form>
+
+    <form name="form1" method="POST" action="/search-term">
+    <div id="container">
+        <td>What wine terms are similar to...</td>
+        <td><input type="text" id = "termsearch" name="term" ></td>
+        <td colspan="2"><input type="submit" value="Submit" ></td>
+    </div>
+    </form>
+
+    <form name="form1" method="POST" action="/wine-math">
+    <div id="container">
+        <td>What's the result of adding together...</td>
+        <td><input type="text" id = "termsearch" name="adds" ></td>
+        <td>...and subtracting...</td>
+        <td><input type="text" id = "termsearch" name="subtracts" ></td>
+        <td colspan="2"><input type="submit" value="Submit" ></td>
+        <br>
+        <td>Separate terms with commas; feel free to leave a box blank.</td>
+        <br>
+        <td>(try: raisin + plum - grape, or strawberry - tannic, or blueberry - tannic)</td>
+
+    </div>
+    </form>
+
+</body>
+</html>
